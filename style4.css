@@ -1,0 +1,468 @@
+body {
+   margin: 0;
+   padding: 0;
+   color: #333;
+   font-size: 14px;
+   font-family:'Open Sans';
+   line-height: 1.5;
+   margin: 0;
+   background: #F7F7F7;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+a{
+    text-decoration: none;
+   
+}
+
+.left {
+    float: left;
+    
+}
+.clr {
+    clear: both;
+}
+.top {
+    border-bottom: 1px solid #e1e1e1;
+    background: #ccc;
+    padding: 10px 0;
+}
+
+.social {
+
+}
+.busad {
+
+}
+.header {
+    padding:15px 0;
+}
+.logo {
+    width: 20%;
+}
+.logo img {
+     width: 80%;
+     margin-top: 10px;
+     
+}
+.banner {
+    display: block;
+    width: 100%;
+    height: 100%;
+   }
+.banner img {
+    width: 100%;
+  
+}
+
+.menu {
+    height: 40px;
+    width:100%;
+   background: #fafafa;
+   border-bottom: 1px solid #f2f2f2;
+   font-size: 13px;
+   z-index: 22;
+   
+   
+}
+.menu ul {
+   margin: 0 ;
+   padding: 0 150px;  
+   border: 0;
+   float: right;
+}
+.menu li {
+   display: inline-block;
+}
+.menu li a {
+   position: relative;
+   color: #333;
+   font-size: 12px;
+    cursor: pointer;
+   line-height: 39px;
+   font-family: Arial, Helvetica, sans-serif;
+   padding: 0 24px 0 10px;
+   display: block;
+   transition: all 0.3s ease-out;
+}
+.menu li a:hover {
+   color: #ff0000;
+   text-decoration: none;
+}
+
+
+.main {
+    padding: 20px 0;
+}
+.a1 {
+    width: 70%;
+    margin: 0 -12px;
+     }
+.ontsloh {
+    position: relative;
+    margin-bottom: 20px;
+    padding: 12px 10px;
+}
+.ontsloh img {
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+}/*position absolute davharlah gj bgaagaa absolute gene*/
+.ontsloh .caption h3 {
+    color: #fff;
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 15px 0;
+    font-weight: normal;
+}
+.gurav {
+    margin: 0 -12px;
+    padding: 30px 0;
+}
+.gurav .g1 {
+    width: 30.4%;
+    margin: 0 12px;
+    position: relative;
+}
+.gurav .g1 img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    /*object-fit: cover; zurag butneer харуулна.*/
+}
+.gurav .g1 .caption {
+    width: 100%;
+    height: 30%;
+    position: absolute;
+    bottom: 0;
+    background: rgba(pink, pink, pink, 0.5);
+    padding: 15px;
+    box-sizing: border-box;
+}
+.gurav .g1 .caption h3 {
+    color:#fff;
+    font-size: 16px;
+    line-height: 1.2;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0,0.8);
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    font-weight: normal;
+}
+.title {
+    height: 30px;
+    margin: 20px 0;
+    background: #e2a9a9;
+    
+
+}
+
+.two {
+    margin: 0 -12px;
+}
+.b1 {
+    width: 47%;
+    margin: 0 12px;
+  
+}
+.b1-tom {
+   
+}
+.b1-tom img {
+    width:100%;
+    height: 300px;
+    object-fit: cover;
+
+}
+.b1-tom h3 {
+    font-size: 18px;
+    line-height: 1.2;
+    font-weight: normal;
+    margin: 10px 0;
+    /*margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;*/
+}
+.b1-tom h3 a {
+    color: #141414;
+}
+.b1-tom p {
+    color: #616161;
+}
+.b1-small {
+    margin-bottom: 20px; 
+}
+.b1-small .b1-image {
+    width: 38%;
+}
+.b1-small .b1-image img {
+    width: 100%;
+    height: 130px;
+    object-fit: cover;
+}
+.b1-small .b1-text {
+    width: 59%;
+}
+.b1-small .b1-text h3 {
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 1.2;
+    margin: 10px 0;
+    
+}
+.b1-small .b1-text h3 a {
+    color: #000;
+}
+.a2 {
+    width: 29%;
+    }
+  /*  flexbox margin auto */
+
+  .menu2 {
+    padding: 10px 10px ;
+    margin: 0;
+    background: #fff;
+   
+}
+.menu2 li a {
+    color: #333;
+   
+}
+.menu2 li a:hover {
+    color: #ff0000;
+    text-decoration: none;
+ }
+ 
+.user-account {
+    display: block;
+    position: relative;
+    text-align: center;
+}
+ .Flash Deal {
+    padding: 100px 0;
+    margin:    0;
+}
+.title  {
+    color: #000;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 600;
+    text-align: center;
+    margin: 10px 0 15px;
+    
+}
+.divider {
+    width: 100px;
+    height: 2px;
+    background: #000;
+    margin: 0 auto 50px;
+}
+.n1 {
+
+}
+.n1 .n1-image {
+
+}
+.n1 .n1-image img {
+    width: 100%;
+    height: 170px;
+    object-fit: cover;
+}
+.n1 h3{
+    font-size: 18px;
+    font-family: "Roboto Condensed";
+    font-weight: bold;
+    line-height: 1.2;
+    margin: 10px 0;
+    height: 42px;
+    overflow: hidden;
+}
+.n1 h3 a {
+    color: #000;
+}
+:after, :before {
+       box-sizing: border-box;
+}
+.html {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+.user-account {
+    position: relative;
+    text-align: center;
+    padding: 60px auto;
+    margin: 60px 0;
+}
+.user-account img {
+    vertical-align: middle;
+    width: 48px;
+    height: 48px;
+    border-radius: 24px;
+    margin: -50px auto ; 
+    }
+.ali {
+    color:  #000;
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+    margin: 20px auto ;
+}
+a:hover {
+    text-decoration: none;
+}
+.join_btn{
+    color: #fff;
+    background-color: #ff4747;
+    display: block;
+    float: left;
+    width: 100px;
+    height: 36px;
+    line-height: 36px;
+    border-radius: 18px;
+    margin: 0 10px;     
+
+}
+.signin {
+    display: block;
+    float: left;
+    width: 80px;
+    height: 36px;
+    line-height: 36px;
+    color: #666;
+    border-radius: 18px;
+    background-color: #f9f9f9;
+}
+.signin a{
+    color: #666;
+}
+.join_btn a {
+    color: #fff;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+.member-entry img {
+    width: 200px;
+    padding: 20px ;
+   
+}
+.banner2 {
+    padding: 20px;
+}
+
+    /*
+.menu .container .right ul{
+    background: darkorange;
+    list-style: none;
+    margin: 0;
+    padding-left: 0;
+}
+.menu .container .right li{
+   
+    background: darkorange;
+    display: block;
+    float: left;
+    padding: 1rem;
+    position: relative;
+    text-decoration: none;
+    transition-duration: 0.5s;
+}
+.menu .container .right li a {
+    color: #fff;
+}
+
+
+.menu .container .right li:hover {
+    background: red;
+    cursor: pointer;
+  }
+.menu .container .right ul li ul {
+    background: orange;
+    visibility: hidden;
+    opacity: 0;
+    min-width: 5rem;
+    position: absolute;
+    transition: all 0.5s ease;
+    margin-top: 1rem;
+    left: 0;
+    display: none;
+  }
+  
+.menu .container .right ul li ul:hover {
+    visibility: visible;
+    opacity: 1;
+    display: block;
+  }
+.menu .container .right ul li ul li {
+    clear: both;
+    width: 100%;
+  }
+}*/
+ /*https://css-tricks.com/solved-with-css-dropdown-menus/*/
+  /*https://www.w3schools.com/cssref/pr_class_display.asp  - display: block*/
+  /*https://www.w3schools.com/css/css_padding.asp - padding*/
+/*
+.navigation a {
+    text-decoration: none;
+  }
+ 
+  .navigation nav {
+    font-family: monospace;
+  }
+  
+  .navigation ul {
+    background: darkorange;
+    list-style: none;
+    margin: 0;
+    padding-left: 0;
+  }
+  
+  .navigation li {
+    color: #fff;
+    background: darkorange;
+    display: block;
+    float: left;
+    padding: 1rem;
+    position: relative;
+    text-decoration: none;
+    transition-duration: 0.5s;
+  }
+    
+  .navigation  li a {
+    color: #fff;
+  }
+  
+  .navigation li:hover {
+    background: red;
+    cursor: pointer;
+  }
+  
+  .navigation ul li ul {
+    background: orange;
+    visibility: hidden;
+    opacity: 0;
+    min-width: 5rem;
+    position: absolute;
+    transition: all 0.5s ease;
+    margin-top: 1rem;
+    left: 0;
+    display: none;
+  }
+  
+  .navigation ul li ul:hover {
+    visibility: visible;
+    opacity: 1;
+    display: block;
+  }
+  
+  .navigation ul li ul li {
+    clear: both;
+    width: 100%;
+  }
+  https://validator.w3.org/?fbclid=IwAR2aguyOp4XVpqAbz42tGHMmaIf9hb7tbaeEcbLyrPmOwahLcrjaO9Cub6c
+  */
